@@ -1,0 +1,11 @@
+{
+  "name": "exo3_api",
+  "version": "1.0.0",
+  "description": "Exercice api - recupérer du feed et le mettre dans le DOM - Julien Noyer",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc typings/* --outDir js -w --pretty"
+  },
+  "author": "CL",
+  "license": "ISC"
+}

@@ -1,0 +1,164 @@
+/* 
+Reset
+*/
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    html{
+        font-size: 62.5%;
+    }
+
+    body{
+        font: 1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 1.4;
+        font-weight: 100;
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -ms-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+    }
+
+    h1 {
+        font-weight: 200;
+        margin-bottom: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    img{
+        max-width: 100%;;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    select {
+        border: none !important;
+        background-color: transparent;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance:none;
+        width: 100%;
+        line-height: 1;
+        padding: 1rem;
+    }
+
+    select:focus{
+        outline: none;
+    }
+
+    select::-ms-expand {
+        display: none;
+    }
+
+    select:-moz-focusring {
+        color: transparent;
+        text-shadow: 0 0 0 #000;
+    }
+
+    label {
+        position: absolute;
+        bottom: 100%;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding-bottom: .2rem;
+    }
+/**/
+
+/* 
+Layout
+*/
+    header, main, footer p{
+        max-width: 35rem;
+        margin: auto;
+    }
+
+    header{
+        padding: 2rem;
+        margin: 4rem auto;
+        border: .1rem dotted #ddd;
+    }
+
+    main{
+        margin-bottom: 10rem;
+    }
+
+    footer{
+        font-size: 1rem;
+        font-weight: 200;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2rem;
+        color: black;
+        background-color: #ddd;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+/**/
+
+/*
+Header
+*/
+    header article {
+        position: relative;
+        border: .1rem solid #ddd;
+    }
+
+    header aside {
+        position:absolute;
+        right:.5rem;
+        top:0;
+        width:2rem;
+        height:100%;
+        background: #FFF url('../img/ui/arrow.png') no-repeat right;
+        background-size: 100%;
+    }
+/**/
+
+/*
+News feed
+*/
+    figure {
+        position: relative;
+        max-height: 19rem;
+        overflow: hidden;
+    }
+
+    figcaption {
+        position: absolute;
+        padding: 1rem;
+        margin: 2rem;
+        background-color: rgba(255, 255, 255, .8);
+    }
+
+    .cta{
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: uppercase;
+        padding: .5rem;
+        color: white;
+        background-color: black;
+    }
+
+    figure + p{
+        margin: 2rem auto 1rem auto;
+    }
+
+    main article{
+        margin-bottom: 5rem;
+    }
+/**/
